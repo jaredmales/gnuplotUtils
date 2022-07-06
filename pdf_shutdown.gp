@@ -2,12 +2,14 @@
 # Closes the output and runs pdflatex on it.  Also manages aux files.
 #
 # To use:
-#  0) put this file in the working directory, or set GNUPLOT_LIB to point to it's directory
+#  0) put this file in the working directory, or set GNUPLOT_LIB to point to its directory
 #  1) define the gpoutname string, without the .tex extension
 #  2) then load 'pdf_startup.gp' 
 #  3) Do all plotting commands
 #  4) then load 'pdf_shutdown.gp'
 #
+# Dependencies:
+#  On Ubuntu you will probably need to install the texlive-font-utils package
 ##################################################
 
 set output
