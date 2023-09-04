@@ -14,8 +14,10 @@
 
 
 
-set terminal epslatex  color standalone dashed
-set termoption font ',12'
+set terminal epslatex color colortext standalone dashed header \
+"\\usepackage{mathabx}"
+
+set termoption font 'ptm,10'
 
 set style line 11 lc rgb 'black' lt 1 lw 2
 #set border 3 front ls 11
